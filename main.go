@@ -212,7 +212,6 @@ func ReadData(training CaloriesCalculator) string {
 	info.Calories = calories
 
 	return fmt.Sprint(info)
-	// return training.TrainingInfo().String()
 }
 
 func main() {
